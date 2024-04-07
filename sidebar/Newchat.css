@@ -1,0 +1,132 @@
+.nuovachat{
+    height: 1fr;
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.nuovachat:hover{
+    background-color: #b5c9cd29;
+}
+
+
+.nuovachat_info{
+    width: 100%;
+    justify-content: center;
+    background-color:none;
+    margin-left: 15px;
+}
+
+.nuovachat_info_testo > h1{
+    font-size: 20px;
+    margin-bottom: 8px;
+    justify-self: center;
+}
+
+.nuovachat_info_avatar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nuovachat_info_testo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chatChoose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .chatChoose input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  .chatChoose button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chatChoose button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+
+  /* Stile per il contenitore principale */
+.nuovachat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Stile per il contenitore della nuova chat quando visibile */
+  .nuovachat_info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  /* Stile per il testo nella nuova chat */
+  .nuovachat_info_testo {
+    margin-right: 10px;
+  }
+  
+  /* Stile per il contenitore della scelta della chat */
+  .chatChoose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Stile per gli input nella scelta della chat */
+  .chatChoose input {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  /* Stile per i pulsanti nella scelta della chat */
+  .chatChoose button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Effetto hover per i pulsanti */
+  .chatChoose button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Effetto hover per il pulsante back */
+  .chatChoose button:last-child:hover {
+    background-color: #0056b3; /* Cambia colore come preferisci */
+  }
+  

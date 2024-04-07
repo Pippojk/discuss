@@ -1,0 +1,32 @@
+.credenziali {
+    position: absolute;
+    left: 20px; /* regola la distanza dal bordo sinistro */
+    top: 20%; /* centra verticalmente rispetto al top */
+    transform: translateY(-50%);
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.credenziali button {
+    border-radius: 5px;
+    background-color: #ffd700; /* giallo oro */
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.credenziali button:hover {
+    background-color: #ffbf00; /* giallo oro scuro al passaggio del mouse */
+}
+
+.credenziali h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333; /* colore del testo */
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+form{
+    height: 100%;
+    width: 100%;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signUp-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .signUp {
+      width: 70%;
+      height: 90%;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    
+    .titleS {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .inputS {
+      display: grid;
+      gap: 15px;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
+    
+    .emailS,
+    .name,
+    .Confpassword,
+    .passwordS {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 5px;
+    }
+    
+    .inputS label {
+      font-size: 14px;
+      color: #333;
+    }
+    
+    .inputS input{
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      width: 20vh;
+    }
+    
+    .inputS input:focus {
+      outline: none;
+      border-color: #000000;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+    .titleS {
+      cursor: default;
+    }
+    .back-btnS h1{
+      cursor: pointer;
+    }
+    .buttonS h1{
+      cursor: pointer;
+    }
